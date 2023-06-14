@@ -995,7 +995,11 @@ button {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #122c2d;
+    /* background-color: #5a72d5; */
+    width: 100%;
+    float: left;
+    background-image: url(../images/layout/banner.png);
+    background-size: 100%;
     height: auto;
 }
 
