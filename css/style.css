@@ -231,7 +231,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg_2.jpg);
+    background-image: url(../images/layout/banner.png);
     height: auto;
     background-size: 100%;
     padding: 0px 0px 20px 0px;
@@ -328,11 +328,6 @@ button {
     background-color: #2b2278;
 }
 
-.menu_main li.active a {
-    color: #ffffff;
-    background-color: #2b2278;
-}
-
 .mb-lg-0,
 .my-lg-0 {
     margin-bottom: 0!important;
@@ -369,19 +364,6 @@ button {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Righteous', Regular;
-    margin-bottom: 10px;
-}
-
-.banner_taital_mobile {
-    width: 100%;
-    float: left;
-    font-size: 80px;
-    color: #ffffff;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Righteous', Regular;
-    margin-bottom: 10px;
 }
 
 .banner_text {
@@ -390,7 +372,6 @@ button {
     font-size: 16px;
     color: #ffffff;
     text-shadow: 2px 2px black;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -552,7 +533,7 @@ button {
 }
 
 .about_img {
-    width: 98%;
+    width: 100%;
     float: left;
 }
 
