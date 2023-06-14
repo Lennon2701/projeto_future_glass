@@ -10,7 +10,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>FUTURE GLASS - INÍCIO</title>
+   <title>FUTURE GLASS - SERVIÇOS</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -31,8 +31,10 @@
    <!-- owl stylesheets -->
    <link rel="stylesheet" href="css/owl.carousel.min.css">
    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
-      media="screen">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"media="screen">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -67,98 +69,54 @@
             </nav>
          </div>
          <div class="container-fluid">
+            <h1 class="banner_taital" style="font-size: 30px !important; text-shadow: 3px 2px black !important;">FUTURE GLASS</h1>
             <div class="menu_main">
                <ul>
-                  <li class="active"><a href="index.html">Início</a></li>
+                  <li><a href="index.html">Início</a></li>
                   <li><a href="about.html">Sobre Nós</a></li>
-                  <li><a href="products.html">Produtos</a></li>
+                  <li class="active"><a href="products.html">Produtos</a></li>
                   <!-- <li><a href="services.html">Serviços</a></li> -->
                   <li><a href="contact.html">Contato</a></li>
                </ul>
             </div>
          </div>
       </div>
-      <!-- banner section start -->
-
-
-      <div class="banner_section layout_padding">
-         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <h1 class="banner_taital">FUTURE GLASS</h1>
-                     <p class="banner_text">Tecnologia em Vidros Laminados - Transparência que reflete excêlencia.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      
-
-      <!-- banner section end -->
    </div>
    <!-- header section end -->
+   <!-- about section start -->
    <!-- services section start -->
    <div class="services_section layout_padding">
       <div class="container">
-         <h1 class="services_taital">Serviços </h1>
-         <p class="services_text">Nossos diversos serviços e materiais com que trabalhamos</p>
+         <h1 class="services_taital">Produtos </h1>
+         <p class="services_text">Nossos diversos produtos e materiais com que trabalhamos</p>
          <div class="services_section_2">
             <div class="row">
                <div class="col-md-4">
-                  <div><img src="images/servicos/vidro_laminado.jpg" class="services_img" style="border-radius: 20px !important;"></div>
-                  <div class="btn_main"><a href="#">Vidro Laminado</a></div>
+                  <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal14">
+                     <img src="images/servicos/vidro_laminado.jpg" class="services_img" style="border-radius: 20px !important;">
+                     <div class="btn_main" style="width: 300px !important;">
+                        <a id="linkVidroLaminado" style="color: white; cursor: pointer;">Vidro Temperado - Laminado</a>
+                     </div>
+                  </div>
                </div>
+
                <div class="col-md-4">
-                  <div><img src="images/servicos/pvb_colorido.jpg" class="services_img" style="border-radius: 20px !important;"></div>
-                  <div class="btn_main active"><a href="#">PVB Colorido</a></div>
+                  <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal14">
+                     <img src="images/servicos/pvb_colorido.jpg" class="services_img" style="border-radius: 20px !important;">
+                     <div class="btn_main">
+                        <a id="linkPVBColorido" style="color: white; cursor: pointer;">PVB Colorido</a>
+                     </div>
+                  </div>
                </div>
                <div class="col-md-4">
                   <!-- <div><img src="images/servicos/marmore_granito.jpg" class="services_img"></div>
-                  <div class="btn_main" style="width: 225px !important"><a href="#">Imagem Ilustrativa</a></div> -->
+                  <div class="btn_main" style="width: 225px !important"><a href="#">Marmores / Granitos</a></div> -->
                </div>
-               <!-- <div class="readmore_bt"><a href="services.html">Ver mais +</a></div> -->
             </div>
          </div>
       </div>
    </div>
    <!-- services section end -->
-   <!-- about section start -->
-   <div class="about_section layout_padding">
-      <div class="container-fluid">
-         <div class="row">
-            <div class="col-md-6">
-               <div class="about_taital_main">
-                  <h1 class="about_taital">Sobre Nós</h1>
-                  <p class="about_text">
-                     Somos uma empresa com profissionais com larga experiência neste mercado, adquiridos ao longo dos anos
-                     na atuação em Laminação e Distribuição de Vidros.
-                  </p>
-                  <p class="about_text">
-                     Trabalhamos com materiais e equipamentos de excelente qualidade, com uma linha de laminação 100% automatizada. 
-                     Contamos com colaboradores treinados e supervisores capacitados para melhor atender a sua demanda de forma personalizada 
-                     com comprometimento, eficiência e rapidez.
-                  </p>
-                  <div class="readmore_bt"><a href="about.html">Ler Mais +</a></div>
-               </div>
-            </div>
-            <div class="col-md-6 padding_right_0">
-               <div><img src="images/about-img.png" class="about_img" style="border-radius: 20% 0 20% 0"></div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- about section end -->
-   <!-- choose section start -->
-   <div class="choose_section layout_padding">
-      <div class="container">
-         <h1 class="choose_taital">Porque nos escolher</h1>
-         <p class="choose_text">
-            Trabalhamos com materiais e equipamentos de excelente qualidade, com uma linha de laminação 100% automatizada. 
-            Contamos com colaboradores treinados e supervisores capacitados para melhor atender a sua demanda de forma personalizada com comprometimento, eficiência e rapidez.</p>
-      </div>
-   </div>
-   <!-- choose section end -->
    <!-- footer section start -->
    <div class="footer_section layout_padding">
       <div class="container">
@@ -203,6 +161,94 @@
       </div>
    </div>
    <!-- footer section end -->
+
+   <!--VIDRO LAMINADO-->
+   <div class="modal fade" id="vidroLaminado">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+         </div>
+         <div class="col-lg-12">
+            <h2 class="text-secondary text-uppercase mb-0 text-center">VIDRO LAMINADO</h2>
+            <div class="modal-body">
+               <div class="divider-custom text-center"></div>
+               <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-4">
+                     <img class="img-fluid rounded mb-10" src="images/servicos/vidro_laminado.jpg" alt="...">
+                  </div>
+                  <div class="col-md-4"></div>
+               </div>
+               <div class="divider-custom text-center"></div>
+               <h5>INFORMAÇÕES</h5>
+               <hr>
+               <ul>
+                  <li>O Vidro Laminado é composto  duas ou mais chapadas de vidro, intercaladas por uma ou mais interlayers com proteção dos raios UV em até 99%.</li>
+                  <br/>
+                  <li>Obrigatório para coberturas, pisos, fachadas, guarda-corpo e ideal para portas, janelas, divisórias, vitrines e pisos.</li>
+                  <li><br/>
+                     Os interlayers podem ser:
+                     <br/><b>PVB Incolor: </b> 100% incolor, permitindo a passagem de luz.<br>
+                     <b>PVB Opaco:</b> bloqueia 85% da luz, garantindo privacidade e segurança.<br>
+                     <b>PVB Acústico:</b> reduz em até 50% do ruído percebido, garantindo conforto ambiental.<br>
+                  </li>
+               </ul>
+               <br>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+
+   <!--PVB COLORIDO-->
+   <div class="modal fade" id="PVBColorido">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+         </div>
+         <div class="col-lg-12">
+            <h2 class="text-secondary text-uppercase mb-0 text-center">PVB COLORIDO</h2>
+            <div class="modal-body">
+               <div class="divider-custom text-center"></div>
+               <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-4">
+                     <img class="img-fluid rounded mb-10" src="images/servicos/pvb_colorido.jpg" alt="...">
+                  </div>
+                  <div class="col-md-4"></div>
+               </div>
+               <div class="divider-custom text-center"></div>
+               <h5>INFORMAÇÕES</h5>
+               <hr>
+               <ul>
+                  <li>PVB é a sigla para "polivinil butiral", um tipo de polímero transparente e flexível que é frequentemente usado na fabricação de vidros laminados de segurança.
+                     O vidro laminado consiste em duas ou mais camadas de vidro, com uma camada de PVB colocada entre elas.</li><br/>
+                  <li>O PVB atua como um agente de ligação, mantendo o vidro unido mesmo após a quebra, reduzindo o risco de ferimentos causados por fragmentos de vidro.</li>
+               </ul>
+               <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    <!-- copyright section start -->
    <div class="copyright_section">
       <div class="container">
@@ -211,6 +257,17 @@
    </div>
    <!-- copyright section end -->
    <!-- Javascript files-->
+   <script>
+      $(document).ready(function(){
+        $("#linkVidroLaminado").click(function(){
+          $("#vidroLaminado").modal();
+        });
+        
+        $("#linkPVBColorido").click(function(){
+          $("#PVBColorido").modal();
+        });
+      });
+      </script>
    <script src="js/jquery.min.js"></script>
    <script src="js/popper.min.js"></script>
    <script src="js/bootstrap.bundle.min.js"></script>
