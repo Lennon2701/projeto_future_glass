@@ -996,11 +996,8 @@ button {
     width: 100%;
     float: left;
     /* background-color: #5a72d5; */
-    width: 100%;
-    float: left;
-    background-image: url(../images/layout/banner.png);
-    background-size: 100%;
-    height: auto;
+    background: rgb(157,152,230);
+    background: linear-gradient(90deg, rgba(157,152,230,1) 0%, rgba(165,129,219,1) 35%, rgba(131,78,232,1) 96%);
 }
 
 .copyright_text {
